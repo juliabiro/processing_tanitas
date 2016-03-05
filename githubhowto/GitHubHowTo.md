@@ -14,7 +14,7 @@ A repository általában egy logikailag összefüggő munka, pl egy program kód
 ## Klónozás
 
 Amikor lemásolunk egy repositoryt (a saját gépünkre), azt úgy hívják, hogy klónozás. Ilyenkor a repository egész tartalmát és egész történetét megkapjuk, és létrejön egy ugyanolyan repository, mint az eredeti, szintén egy saját mappában. Ha egy másolatban csinálunk egy változtatást és elmentjük, akkor ezt a változtatást az eredetiben is meg lehet ismételni, és akkor megint két teljesen egyforma mappánk lesz, teljesen egyforma történettel. 
-A repositorykat általában úgy csinálják meg, hogy bárki lemásolhassa őket, de nem mindenkinek van joga beleírni. 
+A repositorykat általában úgy csinálják meg, hogy bárki lemásolhassa őket, de nem mindenkinek van joga beleírni. ezért a gittel könnyen lehet kódot megosztani: csak odaadod a másiknak a repository elérhetőségét, hogy másolja le onnan. 
 
 ## Commitolás
 
@@ -31,10 +31,10 @@ A github.com-on létrehoztunk egy repository-t (van aki többet is, de nekünk c
 
 # Klónozás
 
-Nyisd ki a github programot, és jelentkezz be (beállítások, accounts). Baloldalt felül van egy kis plusz jell, azt megnyomva válaszd ki a clone opciót. Ha be vagy jelentkezve, akkor fel fogja ajánlani, hogy azok közül a repository-k közül klónozz egyet, amiket te hoztál létre a githubon [](clone.png). Válaszd ki a processing nevűt. Itt tudod beállítani azt is, hogy hova másolja a github a repót. Olyan helyet válassz, amit meg fogsz találni később. Ha leokézod, akkor el fogja kezdeni másolni
-[](cloning.png). De ha nem találod, akkor a girhub programotól mindig megkérdezheted, hogy hova tette[](finding.png).
+Nyisd ki a github programot, és jelentkezz be (beállítások, accounts). Baloldalt felül van egy kis plusz jell, azt megnyomva válaszd ki a clone opciót. Ha be vagy jelentkezve, akkor fel fogja ajánlani, hogy azok közül a repository-k közül klónozz egyet, amiket te hoztál létre a githubon [](clone.png). Válaszd ki a processing nevűt (ez enyémet processing_tanítas-nak hívják). Itt tudod beállítani azt is, hogy hova másolja a github a repót. Olyan helyet válassz, amit meg fogsz találni később. Ha leokézod, akkor el fogja kezdeni másolni
+[](cloning.png). De ha nem találod, akkor a girhub programotól mindig megkérdezheted, hogy hova tette[](finding.png). A lilamacskás program baloldali sávjában vannak azok a repositoryk listázva, amiket én a gépre lemásoltam. 
 
 # Commitolás
 
-
-
+Elkezdek dolgozni a processing mappámban. Én például most írom ezt a leírást. A git érzékeli, hogy a fájlok megváltoztak, és kilistázza a lilamacskás program középső oszlopában, hogy melyik fájlok változtak meg a legutóbbi mentés óta, a bal oldalon pedig azt, hogy mi volt pontosan a változás. Pl én írtam egy csomó szöveget és beletettem 3 képet is. 
+[]()
