@@ -14,7 +14,7 @@ A repository általában egy logikailag összefüggő munka, pl egy program kód
 ## Klónozás
 
 Amikor lemásolunk egy repositoryt (a saját gépünkre), azt úgy hívják, hogy klónozás. Ilyenkor a repository egész tartalmát és egész történetét megkapjuk, és létrejön egy ugyanolyan repository, mint az eredeti, szintén egy saját mappában. Ha egy másolatban csinálunk egy változtatást és elmentjük, akkor ezt a változtatást az eredetiben is meg lehet ismételni, és akkor megint két teljesen egyforma mappánk lesz, teljesen egyforma történettel. 
-A repositorykat általában úgy csinálják meg, hogy bárki lemásolhassa őket, de nem mindenkinek van joga beleírni. ezért a gittel könnyen lehet kódot megosztani: csak odaadod a másiknak a repository elérhetőségét, hogy másolja le onnan. 
+A repositorykat általában úgy csinálják meg, hogy bárki lemásolhassa őket, de nem mindenkinek van joga beleírni. Ezért a gittel könnyen lehet kódot megosztani: csak odaadod a másiknak a repository elérhetőségét, hogy másolja le onnan. 
 
 ## Commitolás
 
@@ -35,13 +35,13 @@ A github.com-on létrehoztunk egy repository-t (van aki többet is, de nekünk c
 
 ## Klónozás
 
-Nyisd ki a github programot, és jelentkezz be (beállítások, accounts). Baloldalt felül van egy kis plusz jell, azt megnyomva válaszd ki a clone opciót. Ha be vagy jelentkezve, akkor fel fogja ajánlani, hogy azok közül a repository-k közül klónozz egyet, amiket te hoztál létre a githubon [](clone.png). Válaszd ki a processing nevűt (ez enyémet processing_tanítas-nak hívják). Itt tudod beállítani azt is, hogy hova másolja a github a repót. Olyan helyet válassz, amit meg fogsz találni később. Ha leokézod, akkor el fogja kezdeni másolni
-[](cloning.png). De ha nem találod, akkor a girhub programotól mindig megkérdezheted, hogy hova tette[](finding.png). A lilamacskás program baloldali sávjában vannak azok a repositoryk listázva, amiket én a gépre lemásoltam. 
+Nyisd ki a github programot, és jelentkezz be (beállítások, accounts). Baloldalt felül van egy kis plusz jell, azt megnyomva válaszd ki a clone opciót. Ha be vagy jelentkezve, akkor fel fogja ajánlani, hogy azok közül a repository-k közül klónozz egyet, amiket te hoztál létre a githubon ![](clone.png). Válaszd ki a processing nevűt (ez enyémet processing_tanítas-nak hívják). Itt tudod beállítani azt is, hogy hova másolja a github a repót. Olyan helyet válassz, amit meg fogsz találni később. Ha leokézod, akkor el fogja kezdeni másolni
+![](cloning.png). De ha nem találod, akkor a girhub programotól mindig megkérdezheted, hogy hova tette[](finding.png). A lilamacskás program baloldali sávjában vannak azok a repositoryk listázva, amiket én a gépre lemásoltam. 
 
 ## Commitolás
 
-Elkezdek dolgozni a processing mappámban. Én például most írom ezt a leírást. A git érzékeli, hogy a fájlok megváltoztak, vagy ha új fájlok jelentek meg, és kilistázza a lilamacskás program középső oszlopában, hogy melyik fájlok változtak meg a legutóbbi mentés óta, a bal oldalon pedig azt, hogy mi volt pontosan a változás. Pl én írtam egy csomó szöveget és beletettem 3 képet is. [](before_commit.png)
-Ha most a summary mezőbe beleírok egy kis üzenetet, és megnyomom a commit gombot, akkor a git elmenti a változtatásaimat egy új commitba. Ekkor a középső oszlop kiürül, hiszen most nincsen különbség a fájlok és a legutolsó mentett verzió óta (hiszen csak 2 perce mentettem). [](after_commit.png). Ezt ki is írja a baloldali oszlopba, és a középső oszlop aljára pedig azt, hogy mi volt az utolsó commit és mi volt a hozzá tartozó kis üzenet.  
+Elkezdek dolgozni a processing mappámban. Én például most írom ezt a leírást. A git érzékeli, hogy a fájlok megváltoztak, vagy ha új fájlok jelentek meg, és kilistázza a lilamacskás program középső oszlopában, hogy melyik fájlok változtak meg a legutóbbi mentés óta, a bal oldalon pedig azt, hogy mi volt pontosan a változás. Pl én írtam egy csomó szöveget és beletettem 3 képet is. ![](before_commit.png)
+Ha most a summary mezőbe beleírok egy kis üzenetet, és megnyomom a commit gombot, akkor a git elmenti a változtatásaimat egy új commitba. Ekkor a középső oszlop kiürül, hiszen most nincsen különbség a fájlok és a legutolsó mentett verzió óta (hiszen csak 2 perce mentettem). ![](after_commit.png). Ezt ki is írja a baloldali oszlopba, és a középső oszlop aljára pedig azt, hogy mi volt az utolsó commit és mi volt a hozzá tartozó kis üzenet.  
 Tehát a commitolás akkor sikeres, ha a középső oszlop üres. 
 
 ### A commit az olyan mint a save?
@@ -55,7 +55,7 @@ A rövid válasz az, hogy mindig. Valahányszor megnyomtad a save gombot, akár 
 ## Push/sync
 
 Ha megvagyunk néhány komittal, akkor a a push/sync gomb segítségével (jobb felső sarok) a helyi változtatásokat felmásolatjuk a githubra. Ezt ellenőrizhetjük is, a böngészőben elmehetünk a github.com-ra és megkereshetjük a repository-nkban a fájlokat, amiken a legutolsó, általunk mentett változata lesz fent. A repository címe github.com/felhasnzálónév/repoository_neve
-[](gh.png)
+![](gh.png)
 A pusholás tehát akkor sikeres, ha a githubon is látod a fájlodat és az van beleírva, amit legutoljára bekommitoltál. 
 
 ## Pull/sync
@@ -70,17 +70,16 @@ Ha felmész a githubra, akkor ott minden fájl fölött van egy history gomb, am
 
 ### troubleshooting
 
-#### túl sok repóm van
-Nem baj. A lényeg hogy legyen egy, és ezentúl abba dolgozz. A gépeden a többi repódból a fájlokat másold át ebbe az egybe, és kommitold be és pushold fel. A gépeden a többi repó mappáját kitörlheted. A githubról nem kell. 
-
-
 #### nincs fenn a githubon a munkám
 Akkor vagy nem kommitoltad be, vagy nem pusholtad fel. Először is győzödj meg róla, hogy a fájlok a helyi repo mappájában vannak (lehet hogy eg máshol lévő processing mappában vannak). Ha nem ott voltak, másold át őket. Nézd meg, hogy be vannak-e a commitolva. Ha a github program középső oszlopában ki vannak listázva, akkor még nincsenek bekommitolva. Végül nyomd meg a sync gombot. 
+
+#### túl sok repóm van
+Nem baj. A lényeg hogy legyen egy, és ezentúl abba dolgozz. A gépeden a többi repódból a fájlokat másold át ebbe az egybe, és kommitold be és pushold fel. A gépeden a többi repó mappáját kitörlheted. A githubról nem kell. 
 
 #### nem enged commitolni
 
 Beraktál egy pár mappát a repóba és most nem enged kommitolni. Ez azért lehet, mert azok a mappák eredetileg másik gitrepokhoz tartoztak, ezt a git érzékeli és összeakad. A gitrepóhoz tartozás azt jelenti, hogy van a mappákban egy .git nevű rejtett mappa. Namost itt két folgot lehet csinálni, vagy kitörlöd ezeket a rejtett mappákat (csak az almappákból, a fő gitrepóból ne!) vagy pedig kimásolod a fő repóba a mappák látható tartalmát. 
-Honnan tudod, hogy melyik mappákkal van baj? 
+Honnan tudod, hogy melyik mappákkal van baj? A lilamacskás programban a középső oszlopban a fájl neve mellett van pár zöld pötty, ha elmenthető a fájl. Ha nem menthető egy féjl vagy mappa, akkor csupa szürke pötty van mellette. 
 
 #### minden rossz
 
@@ -89,9 +88,9 @@ Ha pedig a gépeden minden megvan, de githubon van szörnyű rendetlenség, vagy
 
 # Mire kell vigyázni?
 
-A git mentésre való, vagyis nagy bajt nem lehet csinálni. de a git csak a saját repository mappájában él, és ha ezt kitöröd, akkor elveszik minden fájl és történet is, ezt csak helyből nem lehet visszacsinálni. Viszont pont ezért tolunk fel mindent a githubra, hogy ott is legyen egy másolat. Onnan pedig nem olyan egyszerű kitörölni a dolgokat (de aki megtalálja, hogyan kell, annak pirospont). 
+A git mentésre való, vagyis nagy bajt nem lehet csinálni. De a git mentés és metéstörténet csak a saját repository mappájában él, és ha ezt kitöröd, akkor elveszik minden fájl és történet is, ezt csak helyből nem lehet visszacsinálni. Viszont pont ezért tolunk fel mindent a githubra, hogy ott is legyen egy másolat. Onnan pedig nem olyan egyszerű kitörölni a dolgokat (de aki megtalálja, hogyan kell, annak pirospont). 
 
-Arra kell nagyon vigyázni, hogy amit kiteszel a githubra, az publikus. Pont mint a facebook, sőt, itt kevesebb privacy beállítás van. Sose tegyél ki jelszavakat, személyes adatokat. Ne tedd ki a nemzeti múzeumos képeket sem, mert ez kozzétételnek számít. 
+Arra kell nagyon vigyázni, hogy amit kiteszel a githubra, az publikus. Pont mint a facebook, sőt, itt kevesebb privacy beállítás van. Sose tegyél ki jelszavakat, személyes adatokat. Ne tedd ki a nemzeti múzeumos képeket sem, mert ez közzétételnek számít. 
 
 A git alapvetően szöveges tartalmak követésére sozlgál. nem fullad meg pár képtől, de alapvetően nem erre van kitallva. Úgyhogy ne töltsél fel sok vagy nagy képet, vagy egyéb nem szöveges fájlt. 
 
