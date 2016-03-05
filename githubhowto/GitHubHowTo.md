@@ -69,6 +69,8 @@ pusholva a githubra, a karikák meg olyanokat, amik még nem.
 
 Ha felmész a githubra, akkor ott minden fájl fölött van egy history gomb, amivel a fájl commitjait lehet listázni. Meg lehet nézni, hogy az egyes commitoknak mi volt a tartalma (vagyis mi volt a változás), sőt a fájl akkori állapotát is meg lehet nézni. Ez hasznos, ha pl kitörtöltél valamit, de vissza akarod nézni, hogy hogyan is volt. 
 
+Én például, miközben ezt írtam, elrontottam valamit: lekicsinyítettem a képeket, és fel is toltam githubra. Az eredeti nagyokat meg nem tartottam meg. Végül úgy láttam, hogy szükség van rájuk, és vissza tudtam őket szerezni korábbi a kommitokból.  Na erre való a git. 
+
 ### troubleshooting
 
 #### nincs fenn a githubon a munkám
