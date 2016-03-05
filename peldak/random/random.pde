@@ -11,7 +11,7 @@ void setup(){
 
 float kekseg=0;
 void draw(){
-    fill(0, 0, kekseg);
+    fill(0, kekseg, 0);
     
     // ha lenyomjuk az egergombot, akkor uj keksegertek sorsolodik a kekseg nevu valtozoba
     if (mousePressed){
