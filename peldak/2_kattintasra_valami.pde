@@ -7,10 +7,10 @@ void setup(){
 
 // ez masodpercenkent hatvanszor lefut
 void draw(){
-    bg(#ff0000);
+    background(#ff0000);
 
     // ez csak akkor fut le, ha ;ppen nyomva tartjuk az eger gombjat
     if (mousePressed){
-        bg(#00ff00);    
+        background(#00ff00);    
     }
 }
