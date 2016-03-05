@@ -36,7 +36,7 @@ A github.com-on létrehoztunk egy repository-t (van aki többet is, de nekünk c
 ## Klónozás
 
 Nyisd ki a github programot, és jelentkezz be (beállítások, accounts). Baloldalt felül van egy kis plusz jell, azt megnyomva válaszd ki a clone opciót. Ha be vagy jelentkezve, akkor fel fogja ajánlani, hogy azok közül a repository-k közül klónozz egyet, amiket te hoztál létre a githubon ![](clone.png). Válaszd ki a processing nevűt (ez enyémet processing_tanítas-nak hívják). Itt tudod beállítani azt is, hogy hova másolja a github a repót. Olyan helyet válassz, amit meg fogsz találni később. Ha leokézod, akkor el fogja kezdeni másolni
-![](cloning.png). De ha nem találod, akkor a girhub programotól mindig megkérdezheted, hogy hova tette[](finding.png). A lilamacskás program baloldali sávjában vannak azok a repositoryk listázva, amiket én a gépre lemásoltam. 
+![](cloning.png). De ha nem találod, akkor a girhub programotól mindig megkérdezheted, hogy hova tette ![](finding.png). A lilamacskás program baloldali sávjában vannak azok a repositoryk listázva, amiket én a gépre lemásoltam. 
 
 ## Commitolás
 
@@ -64,7 +64,8 @@ Ha most írsz házifeladatot, akkor azt is commitold be szorgalmasan, és a sync
 
 ### Régebbi verziók
 
-A lilalmacskás programban jobboldalt felül van egy szürke vonal göbökkel. Ez a repositorynk történetét jelképezi. Minden göb egy commit, ha rávisszük az egeret, meg is mutatja a nevét, ha rákattintunk, akkor megmutatja, hogy abban a kommitban mik történtek (a középső és a jobboldai oszlopokban, pont mint commit előtt, csak itt nem enged már menteni mégegyszer). A legjobboldalibb szaggatott kör jelzi a mostani állapotot. Amelyik állpotot éppen megjeleníti, azt kékkel színezi.  
+A lilalmacskás programban jobboldalt felül van egy szürke vonal göbökkel. Ez a repositorynk történetét jelképezi. Minden göb egy commit, ha rávisszük az egeret, meg is mutatja a nevét, ha rákattintunk, akkor a középső oszlopban kilistázza akommitokat, és a jobboldlaiban hogy az egyes kommitokban mik történtek. A legjobboldalibb szaggatott kör jelzi a mostani állapotot. Amelyik állpotot éppen megjeleníti, azt kékkel színezi.  A kis pöttyök olyan commitokat jelölnek, amik fel vannak
+pusholva a githubra, a karikák meg olyanokat, amik még nem. 
 
 Ha felmész a githubra, akkor ott minden fájl fölött van egy history gomb, amivel a fájl commitjait lehet listázni. Meg lehet nézni, hogy az egyes commitoknak mi volt a tartalma (vagyis mi volt a változás), sőt a fájl akkori állapotát is meg lehet nézni. Ez hasznos, ha pl kitörtöltél valamit, de vissza akarod nézni, hogy hogyan is volt. 
 
