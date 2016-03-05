@@ -13,6 +13,7 @@ void setup(){
 
 void draw(){
     background(#ffffff);
+    fill(#ff0000);
     // ellipszis ami mindig oda van kirajzolva mint az eger
     ellipse(mouseX, mouseY, 50, 50);
     
