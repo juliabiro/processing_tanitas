@@ -3,7 +3,6 @@ int y;
 int sugar =100;
 void setup() {
   size(500, 500);
-  background(#ff0000);
   x=250;
   y=250;
 }
