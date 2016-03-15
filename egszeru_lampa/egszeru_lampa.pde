@@ -9,15 +9,13 @@ void setup() {
 }
 
 void draw() {
-  background(#ff00ff);
-      noStroke();
+  noStroke();
 
-    if (abs(x-mouseX)<sugar && abs(y-mouseY)<sugar) {
-        background(#00ff00);
-      } 
-        fill(#ff3333);
+  if (abs(x-mouseX)<sugar && abs(y-mouseY)<sugar) {
+    background(#00ff00);
+  } else {
+    background(#ff00ff);
+  }
 
-   ellipse( x, y, sugar, sugar);  
-     
-   
+  ellipse( x, y, sugar, sugar);
 }
