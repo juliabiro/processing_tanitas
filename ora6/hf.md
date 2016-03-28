@@ -1,11 +1,16 @@
 # Feladat: Művészeti pong játék
-
+[ilyen](http://www.thisiscolossal.com/2016/03/a-playable-version-of-pong-set-inside-a-piet-mondrian-painting/)
 Legyen a játékban egy irányítható ütő, és egy magától mozgó labda. A labda pattanjon vissza az ütőről és a falakról.
 
 1. Először készítsd el a labdát. 
     - Késztís egy labda osztályt, ami egyenletes sebességgel tud mozogni a kép közepéről átlósan le
     - változtasd meg a kódot, hogy random irányba mozogjon
-    - add hozzá a logikát, hogy a labda a kép szélénél megforduljon. Pl  a draw-ban:`if (labda.bent_van()){labda.mozogj();} else {labda.fordulj();}`
+    - add hozzá a logikát, hogy a labda a kép szélénél megforduljon. Pl  a draw-ban:
+    `if (labda.bent_van()){
+        labda.mozogj();
+    } else {
+        labda.fordulj();
+    }`
 
 2. készítsd el az ütőt
     - az ütő lehet egy téglalap
