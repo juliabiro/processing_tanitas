@@ -35,17 +35,18 @@ class Hold {
   }
 }
 
-Csillag cs1=new Csillag();
-Csillag cs2=new Csillag();
-Csillag cs3=new Csillag();
+Csillag[] csillagok= new Csillag[1000];
 Hold hold=new Hold();
 
 void setup() {
   size(500, 500);
-  cs1.szuless();
-  cs2.szuless();
-  cs3.szuless();
-
+  
+  int i= 0; 
+  while (i<1000){
+    csillagok[i]=new Csillag();
+    csillagok[i].szuless();
+    i=i+1;
+  }
   hold.x=50;
   hold.y=75;
   hold.r=40;
@@ -53,12 +54,13 @@ void setup() {
 
 void draw() {
   background(#2C2AB7);
-  //cs1.szuless();
-  //cs2.szuless();
-  //cs3.szuless();
-  cs1.ragyogj();
-  cs2.ragyogj();
-  cs3.ragyogj();
+  
   hold.vilagits();
   hold.mozogj();
+  
+  int i= 0; 
+  while (i<1000){
+    csillagok[i].ragyogj();
+    i=i+1;
+  }
 }
