@@ -8,7 +8,7 @@ var luk_helye;
 
 var rud_hossza=400;
 var gapsize=75;
-
+var score= 0;
 function setup() {
 // background
   //bg =loadImage("http://www.itechnoobs.com/wp-content/uploads/2014/02/background-slider-flappy-birds.jpg");
@@ -55,17 +55,22 @@ function draw() {
 
   if (felso_rud.position.x<0){
     luk_helye=random(150, 400);
-    gapsize=random(500, 100);
+    gapsize=random(150, 100);
     felso_rud.position.x = 1450;
     felso_rud.position.y = luk_helye-50-rud_hossza/2;
     also_rud.position.x=1450;
     also_rud.position.y = luk_helye+50+rud_hossza/2;
+
+    score+=(200-gapsize);
   }
   //4. add collision detection
   if (denever.overlap(also_rud)|| denever.overlap(felso_rud)){
     game_over();
   }
   //5. add scoring
+  fill(0);
+  textSize(16);
+  text(score, 20, 20);
 
 
 	drawSprites();
